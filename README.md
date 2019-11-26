@@ -70,6 +70,8 @@ tape:x:26:
 sudo:x:27:
 ....
 
+```
+
 We try to log in as root
 ```
 sudo -i
@@ -113,10 +115,14 @@ tape:x:26:
 sudo:x:27:hacker
 ...
 
+```
+
 Login as root
 ```
 sudo -i
 
+root@27862a2f9973:~#
+```
 
 
 
