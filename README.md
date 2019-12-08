@@ -77,7 +77,7 @@ We try to log in as root
 sudo -i
 
 ```
-We will now exploit the file `/etc/group`
+We will now exploit the fail on `/etc/group`
 ```
 ./dirtyc0w 
 ```
