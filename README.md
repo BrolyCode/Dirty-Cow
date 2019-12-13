@@ -85,7 +85,7 @@ But the system will refuse to, because We don't have the right to access. We wil
 ```
 ./dirtyc0w 
 ```
-It will print out the following to the terminal, you must wait a litle bite of time (2/3 minutes).
+It will print out the following to the terminal, we must wait a litle bit of time (2/3 minutes).
 ```
 mmap 7fd0facf4000
 
