@@ -30,13 +30,7 @@ sudo -i
 ```
 The first container should be running as part of the build process, we can check this with
 ```
-docker ps
-```
-You should get something like
-```
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                         NAMES
-db86f1c04483        scottyc/dirtyc0w    "nginx -g 'daemon off"   22 seconds ago      Up 19 seconds       0.0.0.0:80->80/tcp, 443/tcp   nginx
-```
+
 Now we can log on as the hacker 
 ```
 docker exec -it -u hacker nginx bash
