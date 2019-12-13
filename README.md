@@ -1,5 +1,5 @@
 # Dirtyc0w Docker POC
-
+Done by **Ben Azzouz Majd**, **El Houti Ouadie**, **Maaraki Zakaria** 
 ```
 Prerequisites:
 - Vagrant installed
@@ -8,9 +8,13 @@ Prerequisites:
 
 # How to use
 
-Firstly 
+Firstly clone the project
 ``
-git clone https://github.com/BrolyCode/Dirty-Cow.git && cd Dirty-Cow
+git clone https://github.com/BrolyCode/Dirty-Cow.git 
+``
+Get into the folder
+``
+cd Dirty-Cow
 ``
 Then run up the environment with the command
 ```
@@ -72,16 +76,16 @@ sudo:x:27:
 
 ```
 
-We try to log in as root
+We can try to login as a root
 ```
 sudo -i
 
 ```
-We will now exploit the fail on `/etc/group`
+But the system will refuse to, because We don't have the right to access. We will now exploit the fail on `/etc/group`
 ```
 ./dirtyc0w 
 ```
-It will print out the following to the terminal
+It will print out the following to the terminal, you must wait a litle bite of time (2/3 minutes).
 ```
 mmap 7fd0facf4000
 
