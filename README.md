@@ -28,9 +28,6 @@ change to the root user
 ```
 sudo -i
 ```
-The first container should be running as part of the build process, we can check this with
-```
-
 Now we can log on as the hacker 
 ```
 docker exec -it -u hacker nginx bash
