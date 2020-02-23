@@ -1,5 +1,4 @@
 # Dirtyc0w Docker POC
-Done by **Ben Azzouz Majd**, **El Houti Ouadie**, **Maaraki Zakaria** 
 ```
 Prerequisites:
 - Vagrant installed
