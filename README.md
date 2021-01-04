@@ -1,9 +1,9 @@
 # Dirtyc0w Docker POC
-```
-Prerequisites:
-- Vagrant installed
 
-```
+
+# Prerequisites:
+
+- Vagrant installed
 
 # How to use
 
